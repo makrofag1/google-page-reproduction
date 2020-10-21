@@ -1,0 +1,104 @@
+
+.nav-img-square{
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+	background-position: -132px -38px;
+	/*background-size: 528px 68px;*/
+	height: 30px;
+	width: 30px;
+}
+
+.navbar{
+	width: 100%;
+	margin-top: 1.2vw;
+	align-content: left;
+}
+
+.navbar ul{
+	display: flex;
+	list-style-type: none;
+	position: absolute;
+	right: 1vw;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-left: 0px;
+
+
+}
+
+.navbar ul li{
+	margin-right: 13px;
+
+}
+.navbar ul li img{
+	border-radius: 50%;
+}
+
+.navbar ul li a{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navbar ul li a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.main-content{
+	width: 100%
+}
+
+.main-content .google-logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.main-content .google-logo img{
+	width: 272px;
+	height: 92px;
+	padding-top: 109px;
+}
+
+.main-content .search-bar{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border: 1px solid;
+}
+
+.main-content .search-bar .bar{
+	border: 1px solid;
+	height: 46px;
+	width: 584px;
+	border-radius: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content .search-buttons{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.main-content .language-text{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.main-content .bar .bar-inside{
+	margin-right: 24px;
+	margin-left: 24px;
+	width: auto;
+	border: 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
